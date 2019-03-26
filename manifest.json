@@ -1,0 +1,12 @@
+{
+  "name": "typing.io formatter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "change background color and several DOMs",
+  "content_scripts": [
+    {
+      "matches": ["https://typing.io/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
