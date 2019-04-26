@@ -1,8 +1,5 @@
 document.title = 'hoge';
-document.querySelector('.header-wrapper').remove();
-document.querySelector('.footer').remove();
-document.querySelector('body').style.backgroundColor='#073642';
-
+/*
 
 let mo = new MutationObserver(() => {
   document.querySelector('.texture').style.backgroundColor='#073642';
@@ -38,3 +35,4 @@ let mo = new MutationObserver(() => {
 
 let main = document.querySelector('#main');
 mo.observe(main, { childList: true, subtree: true });
+*/

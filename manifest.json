@@ -6,6 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://typing.io/*"],
+      "css": ["style.css"],
       "js": ["script.js"]
     }
   ]

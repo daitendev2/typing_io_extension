@@ -1,0 +1,49 @@
+/*
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
+body, .texture {
+  background: #002b36 !important;
+}
+.header-wrapper, .footer {
+  display: none !important;
+}
+.lesson {
+  border: 0px !important;
+}
+.code {
+  margin: 0px 15px !important;
+}
+pre .p { color: #839496 !important; }
+pre .k { color: #dc322f !important; }
+pre .t { color: #b58900 !important; }
+pre .l { color: #2aa198 !important; }
+
+.code span.char-active,
+.paused .code span.char-active {
+  color: #002b36 !important;
+  background-color: #586e75 !important;
+  outline: 0px !important;
+}
+
+.backspace .code span.char-active:after {
+  content: '' !important;
+}
+.code span.incorrect {
+  background-color: #dc322f !important;
+  color: #fff !important;
+}
+.code .initial {
+  color: #839496 !important;
+}
+
+.finished .code span.space {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
