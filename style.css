@@ -11,18 +11,45 @@ $green:     #859900;
 body, .texture {
   background: #002b36 !important;
 }
+body * {
+  border: unset !important;
+}
 .header-wrapper, .footer,
 .repeating, .share,
-h1, .progress-details {
+h1, .progress-details,
+.signin, .details-button,
+.progress-stub, .lesson-button:after,
+.lesson-button.finished:before {
   display: none !important;
 }
-.lesson {
-  border: 0px !important;
+#lessons .lesson-wrapper {
+  width: 100% !important;
+  float: none !important;
+}
+#lessons .lesson-buttons {
+  width: 100% !important;
+  margin: 0 !important;
+  font-size: 12px !important;
+}
+.lesson-button .progress {
+  height: 1px !important;
+  top: unset !important;
+}
+.lesson-button {
+  display: unset !important;
+}
+.lesson-button.finished .metadata {
+  animation: unset !important;
+  animation-play-state: unset !important;
 }
 .code {
   margin: 0px 15px !important;
 }
+.code .initial {
+  color: #839496 !important;
+}
 pre .p { color: #839496 !important; }
+pre .P { color: #839496 !important; }
 pre .k { color: #dc322f !important; }
 pre .t { color: #b58900 !important; }
 pre .l { color: #2aa198 !important; }
@@ -43,9 +70,6 @@ pre .l { color: #2aa198 !important; }
 }
 .paused .code span.return:before {
   background-color: #002b36 !important;
-}
-.code .initial {
-  color: #839496 !important;
 }
 
 .finished .code span.space {
