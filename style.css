@@ -19,7 +19,8 @@ body * {
 h1, .progress-details,
 .signin, .details-button,
 .progress-stub, .lesson-button:after,
-.lesson-button.finished:before {
+.lesson-button.finished:before,
+.type_anything_placeholder {
   display: none !important;
 }
 #lessons .lesson-wrapper {
