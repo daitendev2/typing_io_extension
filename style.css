@@ -50,7 +50,10 @@ $cyan:      #2aa198;
 $green:     #859900;
 */
 .code {
+  width: 85% !important;
   margin: 0px 15px !important;
+  word-wrap: break-word !important;
+  white-space: pre-wrap !important;
 }
 .code .initial {
   color: #839496 !important;
