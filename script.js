@@ -7,11 +7,12 @@ let mo = new MutationObserver(() => {
     let next = document.querySelector('.next');
     mo.disconnect();
     score = 'wpm: ' + wpm;
-    finished.textContent = score;
+    finished.innerHTML = score;
     if (next) {
       if (confirm(score)) {
         location.href = next.href;
       }
+      finished.innerHTML = '<a href="' + next.href + '">' + score + '</a>';
     }
   }
 });
