@@ -63,6 +63,7 @@ pre .P { color: #839496 !important; }
 pre .k { color: #dc322f !important; }
 pre .t { color: #b58900 !important; }
 pre .l { color: #2aa198 !important; }
+pre .d { color: #6c71c4 !important; }
 
 .code span.char-active,
 .paused .code span.char-active {
