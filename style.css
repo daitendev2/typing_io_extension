@@ -64,6 +64,7 @@ pre .k { color: #dc322f !important; }
 pre .t { color: #b58900 !important; }
 pre .l { color: #2aa198 !important; }
 pre .d { color: #6c71c4 !important; }
+pre .c.initial { color: #586e75 !important; }
 
 .code span.char-active,
 .paused .code span.char-active {
